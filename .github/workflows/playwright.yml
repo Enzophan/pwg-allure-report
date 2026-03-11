@@ -4,6 +4,10 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
+permissions:
+  contents: write # Grants write permission for all jobs in the workflow
+
 jobs:
   test:
     timeout-minutes: 60
