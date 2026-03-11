@@ -45,11 +45,13 @@ jobs:
 
     # Generate and publish report
     - name: Allure Report
-      uses: allure-framework/allure-report@v0
+      uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        report-directory: allure-report
-        results-directory: allure-results
+        allure_results: allure-results
+        allure_report: allure-report
+        gh_pages: gh-pages
+        allure_history: allure-history
 
     - name: Publish Report
       uses: peaceiris/actions-gh-pages@v4
