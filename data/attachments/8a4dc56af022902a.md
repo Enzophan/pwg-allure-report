@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "About" [ref=e4] [cursor=pointer]:
+        - /url: https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header
+      - link "Store" [ref=e5] [cursor=pointer]:
+        - /url: https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Gmail" [ref=e10] [cursor=pointer]:
+            - /url: https://mail.google.com/mail/&ogbl
+          - link "Search for Images" [ref=e12] [cursor=pointer]:
+            - /url: https://www.google.com/imghp?hl=en&ogbl
+            - text: Images
+        - button "Google apps" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+        - link "Sign in" [ref=e20] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+    - img "Google" [ref=e23]
+    - search [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - button "Upload files or images" [ref=e37] [cursor=pointer]:
+            - img [ref=e39]
+          - combobox "Search" [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - button "Search by voice" [ref=e45] [cursor=pointer]:
+                - img [ref=e46]
+              - button "Search by image" [ref=e48] [cursor=pointer]:
+                - img [ref=e49]
+            - link "AI Mode" [ref=e51] [cursor=pointer]:
+              - generic [ref=e53]:
+                - img [ref=e55]
+                - generic [ref=e62]: AI Mode
+        - generic [ref=e64]:
+          - button "Google Search" [ref=e65] [cursor=pointer]
+          - button "I'm Feeling Lucky" [ref=e66] [cursor=pointer]
+    - contentinfo [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link "Advertising" [ref=e72] [cursor=pointer]:
+            - /url: https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+          - link "Business" [ref=e73] [cursor=pointer]:
+            - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+          - link "How Search works" [ref=e74] [cursor=pointer]:
+            - /url: https://google.com/search/howsearchworks/?fg=1
+        - link "Applying AI towards science and the environment" [ref=e76] [cursor=pointer]:
+          - /url: https://ai.google/societal-impact/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer
+        - generic [ref=e77]:
+          - link "Privacy" [ref=e78] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e79] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1
+          - button "Settings" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: Settings
+  - generic:
+    - dialog "Choose Chrome, the browser built by Google":
+      - generic [ref=e93]:
+        - generic [ref=e94]: Choose Chrome, the browser built by Google
+        - generic [ref=e95]: Try a fast, secure browser with automatic updates
+        - generic [ref=e96]:
+          - button "Not interested" [ref=e98] [cursor=pointer]:
+            - generic [ref=e100]: Not interested
+          - button "Try it" [ref=e102] [cursor=pointer]:
+            - generic [ref=e104]: Try it
+```
