@@ -1,0 +1,21 @@
+{
+  "name": "pwg-pom-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chromium --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.37.0"
+  }
+}
