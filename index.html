@@ -59,11 +59,11 @@
   <div class="header">
     <div>
       <div class="header-title"><span>Playwright</span> Test Report</div>
-      <div class="header-meta" style="margin-top:6px">Generated: 7/9/2026, 7:37:30 AM</div>
+      <div class="header-meta" style="margin-top:6px">Generated: 7/9/2026, 9:04:19 AM</div>
     </div>
     <div style="text-align:right">
       <span class="overall-badge failed">FAILED</span>
-      <div class="header-meta" style="margin-top:4px">18 test(s) &middot; 113.52s</div>
+      <div class="header-meta" style="margin-top:4px">18 test(s) &middot; 109.47s</div>
     </div>
   </div>
 
@@ -76,7 +76,7 @@
       <div class="card flaky">   <div class="card-value">0</div>  <div class="card-label">Flaky</div></div>
       <div class="card skipped"> <div class="card-value">0</div>  <div class="card-label">Skipped</div></div>
       <div class="card rate">    <div class="card-value">83.3%</div>     <div class="card-label">Pass Rate</div></div>
-      <div class="card duration"><div class="card-value">113.52s</div>     <div class="card-label">Duration</div></div>
+      <div class="card duration"><div class="card-value">109.47s</div>     <div class="card-label">Duration</div></div>
     </div>
 
     <div class="charts-grid">
@@ -113,11 +113,13 @@
     <div class="charts-grid">
       <div class="chart-card">
         <div class="chart-title">Pass Rate History</div>
-        <div class="no-data">Run more tests to see trend (1/2 recorded)</div>
+        <div class="chart-container"><canvas id="historyChart"></canvas></div>
+             <div class="history-note">Last 2 run(s) &middot; max 30 stored</div>
       </div>
       <div class="chart-card">
         <div class="chart-title">Total Tests History</div>
-        <div class="no-data">Run more tests to see trend (1/2 recorded)</div>
+        <div class="chart-container"><canvas id="totalScenariosChart"></canvas></div>
+             <div class="history-note">Last 2 run(s) &middot; max 30 stored</div>
       </div>
     </div>
 
@@ -147,7 +149,7 @@
         <td>verify title of dev.to</td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">1282 ms</td>
+        <td class="duration-cell">711 ms</td>
         <td class="file-cell">dev/dev.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -155,7 +157,7 @@
         <td>verify description of dev.to</td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">1140 ms</td>
+        <td class="duration-cell">500 ms</td>
         <td class="file-cell">dev/dev.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -163,7 +165,7 @@
         <td>verify DEV Challenges of dev.to</td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">885 ms</td>
+        <td class="duration-cell">806 ms</td>
         <td class="file-cell">dev/dev.spec.ts:20</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -171,7 +173,7 @@
         <td>verify title of dev.to</td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">2249 ms</td>
+        <td class="duration-cell">1754 ms</td>
         <td class="file-cell">dev/dev.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -179,7 +181,7 @@
         <td>verify description of dev.to</td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">1524 ms</td>
+        <td class="duration-cell">930 ms</td>
         <td class="file-cell">dev/dev.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -187,7 +189,7 @@
         <td>verify DEV Challenges of dev.to</td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">1881 ms</td>
+        <td class="duration-cell">1298 ms</td>
         <td class="file-cell">dev/dev.spec.ts:20</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -195,7 +197,7 @@
         <td>verify title of dev.to</td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">5754 ms</td>
+        <td class="duration-cell">4946 ms</td>
         <td class="file-cell">dev/dev.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -203,7 +205,7 @@
         <td>verify description of dev.to</td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">2076 ms</td>
+        <td class="duration-cell">1924 ms</td>
         <td class="file-cell">dev/dev.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -211,7 +213,7 @@
         <td>verify DEV Challenges of dev.to</td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">2764 ms</td>
+        <td class="duration-cell">2710 ms</td>
         <td class="file-cell">dev/dev.spec.ts:20</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -219,7 +221,7 @@
         <td>has title</td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">285 ms</td>
+        <td class="duration-cell">236 ms</td>
         <td class="file-cell">example/example.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -227,7 +229,7 @@
         <td>get started link</td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">349 ms</td>
+        <td class="duration-cell">362 ms</td>
         <td class="file-cell">example/example.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -235,7 +237,7 @@
         <td>has title</td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">504 ms</td>
+        <td class="duration-cell">424 ms</td>
         <td class="file-cell">example/example.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -243,7 +245,7 @@
         <td>get started link</td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">592 ms</td>
+        <td class="duration-cell">575 ms</td>
         <td class="file-cell">example/example.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -251,7 +253,7 @@
         <td>has title</td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">752 ms</td>
+        <td class="duration-cell">716 ms</td>
         <td class="file-cell">example/example.spec.ts:3</td>
       </tr>
       <tr class="scenario-row" data-status="passed">
@@ -259,7 +261,7 @@
         <td>get started link</td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-passed">PASSED</span></td>
-        <td class="duration-cell">1314 ms</td>
+        <td class="duration-cell">1421 ms</td>
         <td class="file-cell">example/example.spec.ts:10</td>
       </tr>
       <tr class="scenario-row" data-status="failed">
@@ -267,7 +269,7 @@
         <td>Verify require field <span class="retry-badge">&#8635;2</span></td>
         <td><span class="tag-pill">chromium</span></td>
         <td><span class="badge badge-failed">FAILED</span></td>
-        <td class="duration-cell">30029 ms</td>
+        <td class="duration-cell">30028 ms</td>
         <td class="file-cell">google/login.spec.ts:5</td>
       </tr><tr class="error-row" data-status="failed"><td colspan="6"><pre class="error-pre">[31mTest timeout of 30000ms exceeded.[39m</pre></td></tr>
       <tr class="scenario-row" data-status="failed">
@@ -275,7 +277,7 @@
         <td>Verify require field <span class="retry-badge">&#8635;2</span></td>
         <td><span class="tag-pill">firefox</span></td>
         <td><span class="badge badge-failed">FAILED</span></td>
-        <td class="duration-cell">30091 ms</td>
+        <td class="duration-cell">30077 ms</td>
         <td class="file-cell">google/login.spec.ts:5</td>
       </tr><tr class="error-row" data-status="failed"><td colspan="6"><pre class="error-pre">[31mTest timeout of 30000ms exceeded.[39m</pre></td></tr>
       <tr class="scenario-row" data-status="failed">
@@ -283,14 +285,14 @@
         <td>Verify require field <span class="retry-badge">&#8635;2</span></td>
         <td><span class="tag-pill">webkit</span></td>
         <td><span class="badge badge-failed">FAILED</span></td>
-        <td class="duration-cell">30050 ms</td>
+        <td class="duration-cell">30055 ms</td>
         <td class="file-cell">google/login.spec.ts:5</td>
       </tr><tr class="error-row" data-status="failed"><td colspan="6"><pre class="error-pre">[31mTest timeout of 30000ms exceeded.[39m</pre></td></tr></tbody>
       </table>
     </div>
 
   </div>
-  <div class="footer">Playwright HTML Reporter &mdash; 7/9/2026, 7:37:30 AM</div>
+  <div class="footer">Playwright HTML Reporter &mdash; 7/9/2026, 9:04:19 AM</div>
 
 <script>
   Chart.defaults.color = '#94a3b8';
@@ -330,7 +332,7 @@
   new Chart(document.getElementById('benchmarkChart'), {
     type: 'bar',
     data: { labels: ["verify title of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","verify title of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","verify title of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","has title","get started link","has title","get started link","has title","get started link","Verify require field","Verify require field","Verify require field"],
-      datasets: [{ label: 'Duration (ms)', data: [1282,1140,885,2249,1524,1881,5754,2076,2764,285,349,504,592,752,1314,30029,30091,30050], backgroundColor: ["#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#ef4444","#ef4444","#ef4444"], borderRadius: 6 }] },
+      datasets: [{ label: 'Duration (ms)', data: [711,500,806,1754,930,1298,4946,1924,2710,236,362,424,575,716,1421,30028,30077,30055], backgroundColor: ["#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#ef4444","#ef4444","#ef4444"], borderRadius: 6 }] },
     options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       scales: { x: { beginAtZero: true, title: { display: true, text: 'ms' } }, y: { grid: { display: false } } },
       plugins: { legend: { display: false } } },
@@ -341,7 +343,7 @@
   new Chart(document.getElementById('failuresChart'), {
     type: 'bar',
     data: { labels: ["Verify require field","Verify require field","Verify require field"],
-      datasets: [{ label: 'Duration (ms)', data: [30029,30091,30050],
+      datasets: [{ label: 'Duration (ms)', data: [30028,30077,30055],
         backgroundColor: '#ef4444', borderColor: '#fca5a5', borderWidth: 1, borderRadius: 6 }] },
     options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       scales: { x: { beginAtZero: true, title: { display: true, text: 'ms' } }, y: { grid: { display: false } } },
@@ -368,11 +370,58 @@
 
   // 6. Pass Rate History
   
+  new Chart(document.getElementById('historyChart'), {
+    type: 'line',
+    data: { labels: ["Jul 9, 07:37 AM","Jul 9, 09:04 AM"],
+      datasets: [
+        { label: 'Pass Rate (%)', data: [83.3,83.3], borderColor: '#a78bfa',
+          backgroundColor: 'rgba(167,139,250,.12)',
+          pointBackgroundColor: [83.3,83.3].map(v => v===100?'#22c55e':v>=80?'#f59e0b':'#ef4444'),
+          pointRadius: 5, pointHoverRadius: 7, borderWidth: 2, tension: .35, fill: true, yAxisID: 'yRate' },
+        { label: 'Passed', data: [15,15], borderColor: '#22c55e', backgroundColor: 'transparent',
+          pointRadius: 3, borderWidth: 1.5, borderDash: [4,3], tension: .35, yAxisID: 'yCount' },
+        { label: 'Failed', data: [3,3], borderColor: '#ef4444', backgroundColor: 'transparent',
+          pointRadius: 3, borderWidth: 1.5, borderDash: [4,3], tension: .35, yAxisID: 'yCount' },
+      ] },
+    options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false },
+      scales: {
+        x: { grid: { color: 'rgba(51,65,85,.5)' }, ticks: { maxRotation: 40, font: { size: 11 } } },
+        yRate:  { position: 'left',  min: 0, max: 100, title: { display: true, text: 'Pass Rate (%)' }, ticks: { callback: v => v+'%' }, grid: { color: 'rgba(51,65,85,.5)' } },
+        yCount: { position: 'right', beginAtZero: true, title: { display: true, text: 'Count' }, ticks: { stepSize: 1 }, grid: { display: false } },
+      },
+      plugins: { legend: { position: 'top', labels: { usePointStyle: true, padding: 16 } },
+        tooltip: { callbacks: {
+          label: ctx => ctx.dataset.yAxisID==='yRate' ? ' Pass Rate: '+ctx.parsed.y+'%' : ' '+ctx.dataset.label+': '+ctx.parsed.y,
+          afterBody: items => { const t=[18,18][items[0]?.dataIndex]; return t!=null?['','  Total: '+t]:[]; },
+        } } },
+    },
+  });
+
+  // 7. Total Tests History
+  new Chart(document.getElementById('totalScenariosChart'), {
+    type: 'bar',
+    data: { labels: ["Jul 9, 07:37 AM","Jul 9, 09:04 AM"],
+      datasets: [
+        { label: 'Passed',  data: [15,15],  backgroundColor: 'rgba(34,197,94,.85)',   borderColor: '#22c55e', borderWidth: 1, borderRadius: 3, stack: 's' },
+        { label: 'Failed',  data: [3,3],  backgroundColor: 'rgba(239,68,68,.85)',   borderColor: '#ef4444', borderWidth: 1, borderRadius: 3, stack: 's' },
+        { label: 'Flaky',   data: [0,0], backgroundColor: 'rgba(245,158,11,.85)',  borderColor: '#f59e0b', borderWidth: 1, borderRadius: 3, stack: 's' },
+        { label: 'Skipped', data: [0,0], backgroundColor: 'rgba(107,114,128,.85)', borderColor: '#6b7280', borderWidth: 1, borderRadius: 3, stack: 's' },
+      ] },
+    options: { responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false },
+      scales: { x: { stacked: true, grid: { display: false }, ticks: { maxRotation: 40, font: { size: 11 } } },
+                y: { stacked: true, beginAtZero: true, title: { display: true, text: 'Tests' }, ticks: { stepSize: 1 }, grid: { color: 'rgba(51,65,85,.5)' } } },
+      plugins: { legend: { position: 'top', labels: { usePointStyle: true, padding: 16 } },
+        tooltip: { callbacks: { afterBody: items => {
+          const t=[18,18][items[0]?.dataIndex], r=[83.3,83.3][items[0]?.dataIndex];
+          return t!=null?['','  Total: '+t+'  |  Pass Rate: '+r+'%']:[];
+        } } } },
+    },
+  });
 
   // 8. Slowest Tests
   new Chart(document.getElementById('stepChart'), {
     type: 'bar',
-    data: { labels: ["Verify require field","Verify require field","Verify require field","verify title of dev.to","verify DEV Challenges of dev.to","verify title of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","verify description of dev.to","get started link","verify title of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","has title","get started link"], datasets: [{ label: 'Duration (ms)', data: [30091,30050,30029,5754,2764,2249,2076,1881,1524,1314,1282,1140,885,752,592], backgroundColor: ["#ef4444","#ef4444","#ef4444","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e"], borderRadius: 4 }] },
+    data: { labels: ["Verify require field","Verify require field","Verify require field","verify title of dev.to","verify DEV Challenges of dev.to","verify description of dev.to","verify title of dev.to","get started link","verify DEV Challenges of dev.to","verify description of dev.to","verify DEV Challenges of dev.to","has title","verify title of dev.to","get started link","verify description of dev.to"], datasets: [{ label: 'Duration (ms)', data: [30077,30055,30028,4946,2710,1924,1754,1421,1298,930,806,716,711,575,500], backgroundColor: ["#ef4444","#ef4444","#ef4444","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e","#22c55e"], borderRadius: 4 }] },
     options: { responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       scales: { x: { beginAtZero: true, title: { display: true, text: 'ms' } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } },
       plugins: { legend: { display: false } } },
