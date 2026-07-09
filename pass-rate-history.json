@@ -1,13 +1,13 @@
 [
   {
-    "timestamp": "2026-07-09T04:00:56.087Z",
-    "label": "Jul 9, 04:06 AM",
+    "timestamp": "2026-07-09T06:40:49.345Z",
+    "label": "Jul 9, 06:45 AM",
     "passRate": 83.3,
     "passed": 15,
     "failed": 3,
     "pending": 0,
     "skipped": 0,
     "total": 18,
-    "durationMs": 111762
+    "durationMs": 110472
   }
 ]
